@@ -1,0 +1,17 @@
+const userName = "Tom"; // endre på denne verdien for å teste
+const userAge = 18; // endre på denne verdien for å teste
+let userIsAdmin = false; // endre på denne verdien for å teste
+let userIsLoggedIn = false; // endre på denne verdien for å teste
+let userIsBlocked = false; // endre på denne verdien for å teste
+
+if (userIsAdmin == true) {
+  console.log("/admin"); // "/slipp in
+  userIsLoggedIn = true;
+} else if (userIsBlocked == true) {
+  console.log("user is blocked");
+} else if (userName && userAge >= 18) {
+  console.log("/home");
+  userIsLoggedIn == true;
+} else {
+  console.log("user is underage");
+}
